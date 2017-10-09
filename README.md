@@ -12,7 +12,7 @@ These need adding to Startup.cs
 ## Using DfE Login locally
 For security reasons, DfE Login' OIDC server does not allow either non-secure (Not on https) or localhost connections. You will need to setup your local environment to support this constraint. 
 
-One way to do this would be to use [https://ngrok.com/](ngrok). Download the client for your operating system, then run:
+One way to do this would be to use [ngrok](https://ngrok.com/). Download the client for your operating system, then run:
 
 ```
 ngrok http -host-header=localhost 1885
